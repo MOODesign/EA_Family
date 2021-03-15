@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+
+}
+
+.map {
+  position: relative;
+  max-width: 1300px;
+  margin: auto;
+  top: 0;
+  left: 0;
+
+}
+
+
+.pin1 {
+  position: absolute;
+  top: -405px;
+  left: 150px;
+  }
+.pin1 { transition: all .2s ease-in-out; }
+.pin1 { transform: scale(0.05); transform-origin: bottom center;}
+.pin1:hover
+{
+    transform: scale(0.4);
+}
+
+.pin2 {
+  position: absolute;
+  top: -460px;
+  left: -30px;
+  }
+.pin2 { transition: all .2s ease-in-out; }
+.pin2 { transform: scale(0.05); transform-origin: bottom center;}
+.pin2:hover
+{
+    transform: scale(0.4);
+}
+
+.pin3 {
+  position: absolute;
+  top: -380px;
+  left: 30px;
+  }
+.pin3 { transition: all .2s ease-in-out; }
+.pin3 { transform: scale(0.05); transform-origin: bottom center;}
+.pin3:hover
+{
+    transform: scale(0.4);
+}
+
+.pin4 {
+  position: absolute;
+  top: -370px;
+  left: 210px;
+  }
+.pin4 { transition: all .2s ease-in-out; }
+.pin4 { transform: scale(0.05); transform-origin: bottom center;}
+.pin4:hover
+{
+    transform: scale(0.4);
+}
+
+body {
+  background-color: #4abbd1;
+}
+</style>
+</head>
+<body>
+
+<div class="parent">
+  <img class="map" src="map.png"/>
+  <img class="pin1" src="pin1.png"/>
+  <img class="pin2" src="pin2.png"/>
+  <img class="pin3" src="pin3.png"/>
+  <img class="pin4" src="pin4.png"/>
+</div>
+
+</body>
+</html>
